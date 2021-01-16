@@ -1,7 +1,7 @@
 {
   "name": "bubblez",
   "productName": "Bubblez",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "The Social Media You've Always Wanted | Blow Yourself.",
   "main": "src/index.js",
   "scripts": {
