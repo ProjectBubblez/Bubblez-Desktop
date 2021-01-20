@@ -1,5 +1,9 @@
-const { app, BrowserWindow, Menu } = require('electron');
+const { app, BrowserWindow } = require('electron');
 const path = require('path');
+require('update-electron-app')({
+  repo: 'ProjectBubblez/Bubblez-Desktop',
+  logger: console
+})
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) { // eslint-disable-line global-require
